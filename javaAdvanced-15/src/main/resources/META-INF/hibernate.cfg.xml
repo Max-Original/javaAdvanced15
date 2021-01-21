@@ -20,6 +20,8 @@
 		<mapping class="oneToMany.Post" />
 		<mapping class="oneToMany.Comment" />
 
+		<mapping class="manyToMany.User" />
+		<mapping class="manyToMany.Group" />
 
 	</session-factory>
 </hibernate-configuration>
